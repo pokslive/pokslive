@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--metatextblock-->
+    <title>POKS live</title>
+    <meta name="description" content="A turn-key concierge solution to book a poker table & experience at any convenient location">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="POKS live">
+    <meta property="og:description" content="A turn-key concierge solution to book a poker table & experience at any convenient location">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./poks_live/fb.png">
+    <link rel="canonical" href="">
+    <!--/metatextblock-->
+    <meta property="fb:app_id" content="257953674358265">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="shortcut icon" href="./poks_live/favicon_19.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./poks_live/ic.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./poks_live/ic_76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./poks_live/ic_152x152.png">
+    <link rel="apple-touch-startup-image" href="ic_2.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="./poks_live/ic_3.png"><!-- Assets -->
+    <link rel="stylesheet" href="./poks_live/tilda-grid-3.0.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./poks_live/tilda-blocks-2.14.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./poks_live/tilda-animation-1.0.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./poks_live/tilda-menusub-1.0.min.css" type="text/css" media="all" onload="this.media=&#39;all&#39;;">
+    <link rel="stylesheet" href="./poks_live/tilda-slds-1.4.min.css" type="text/css" media="all" onload="this.media=&#39;all&#39;;">
+    <link rel="stylesheet" href="./poks_live/tilda-zoom-2.0.min.css" type="text/css" media="all" onload="this.media=&#39;all&#39;;">
+    <link rel="stylesheet" href="./poks_live/tilda-carousel-1.0.min.css" type="text/css" media="all" onload="this.media=&#39;all&#39;;">
+    <link rel="stylesheet" href="./poks_live/css2.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./poks_live/custom.css">
+    <script type="text/javascript" async="" id="tildastatscript" src="./poks_live/tilda-stat-1.0.min.js"></script>
+    <script src="./poks_live/jquery-1.10.2.min.js"></script>
+    <script src="./poks_live/tilda-scripts-3.0.min.js"></script>
+    <script src="./poks_live/tilda-blocks-2.7.js"></script>
+    <script src="./poks_live/lazyload-1.3.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-animation-1.0.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-cover-1.0.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-events-1.0.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-menusub-1.0.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-slds-1.4.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/hammer.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-zoom-2.0.min.js" charset="utf-8" async=""></script>
+    <script src="./poks_live/tilda-animation-sbs-1.0.min.js" charset="utf-8" async=""></script>
+    
+    <style type="text/css">
+    @media screen and (min-width: 980px) {
+        .t-records {
+            opacity: 0;
+        }
+
+        .t-records_animated {
+            -webkit-transition: opacity ease-in-out .2s;
+            -moz-transition: opacity ease-in-out .2s;
+            -o-transition: opacity ease-in-out .2s;
+            transition: opacity ease-in-out .2s;
+        }
+
+        .t-records.t-records_visible {
+            opacity: 1;
+        }
+    }
+    </style>
+    <style type="text/css">
+    .vue-star-rating-star[data-v-ef4bc576] {
+        overflow: visible !important
+    }
+
+    .vue-star-rating-star-rotate[data-v-ef4bc576] {
+        transition: all .25s
+    }
+
+    .vue-star-rating-star-rotate[data-v-ef4bc576]:hover {
+        transition: transform .25s;
+        transform: rotate(-15deg) scale(1.3)
+    }
+    </style>
+    <style type="text/css">
+    .vue-star-rating-star[data-v-fde73a0c] {
+        display: inline-block
+    }
+
+    .vue-star-rating-pointer[data-v-fde73a0c] {
+        cursor: pointer
+    }
+
+    .vue-star-rating[data-v-fde73a0c] {
+        display: flex;
+        align-items: center
+    }
+
+    .vue-star-rating-inline[data-v-fde73a0c] {
+        display: inline-flex
+    }
+
+    .vue-star-rating-rating-text[data-v-fde73a0c] {
+        margin-left: 7px
+    }
+
+    .vue-star-rating-rtl[data-v-fde73a0c] {
+        direction: rtl
+    }
+
+    .vue-star-rating-rtl .vue-star-rating-rating-text[data-v-fde73a0c] {
+        margin-right: 10px;
+        direction: rtl
+    }
+
+    .sr-only[data-v-fde73a0c] {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden
+    }
+    </style>
+    <style class="sbs-anim-keyframes">#rec388998474 [data-elem-id="1638791652081"].t-sbs-anim_started .tn-atom__sbs-anim-wrapper {
+		animation: sbs-anim-rec388998474-1638791652081 2s infinite linear;
+		backface-visibility: hidden;
+		}
+
+		@keyframes sbs-anim-rec388998474-1638791652081 {
+		0% {opacity:1;transform:translateX(0px)translateY(0px)rotate(0deg)scale(1,1);animation-timing-function:ease-in-out;}
+		50% {opacity:1;transform:translateX(-8px)translateY(7px)rotate(10deg)scale(1,1);animation-timing-function:ease-in-out;}
+		100% {opacity:1;transform:translateX(0px)translateY(0px)rotate(0deg)scale(1,1);}
+		}
+
+		#rec388998474 [data-elem-id="1638796471047"].t-sbs-anim_started .tn-atom__sbs-anim-wrapper {
+		animation: sbs-anim-rec388998474-1638796471047 2s infinite linear;
+		backface-visibility: hidden;
+		}
+
+		@keyframes sbs-anim-rec388998474-1638796471047 {
+		0% {opacity:1;transform:translateX(0px)translateY(0px)rotate(0deg)scale(1,1);animation-timing-function:ease-in-out;}
+		50% {opacity:1;transform:translateX(0px)translateY(14px)rotate(0deg)scale(1,1);animation-timing-function:ease-in-out;}
+		100% {opacity:1;transform:translateX(0px)translateY(0px)rotate(0deg)scale(1,1);}
+		}
+	</style>
+    <style>[_nghost-lym-c60]{font-family:Open Sans,sans-serif;color:#121212}</style>
+</head>
+
+<body class="t-body" style="margin: 0px;">
+    <!--allrecords-->
+    <div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="4923371" data-tilda-page-id="24101558" data-tilda-formskey="5255ea4a92cf9fe8370868fb34923371" data-tilda-lazy="yes">
+        <div id="rec388998470" class="r t-rec t-screenmin-980px" style=" " data-animationappear="off" data-record-type="257" data-screen-min="980px">
+            <!-- T228 -->
+            <div id="nav388998470marker"></div>
+            <div id="nav388998470" class="t228 t228__positionabsolute " style="background-color: rgba(0,0,0,0.0); height:90px; " data-bgcolor-hex="#000000" data-bgcolor-rgba="rgba(0,0,0,0.0)" data-navmarker="nav388998470marker" data-appearoffset="" data-bgopacity-two="" data-menushadow="" data-bgopacity="0.0" data-menu-items-align="left" data-menu="yes">
+                <div class="t228__maincontainer t228__c12collumns" style="height:90px;">
+                    <div class="t228__padding40px"></div>
+                    <div class="t228__leftside"> </div>
+                    <div class="t228__centerside t228__menualign_left">
+                        <div class="t228__centercontainer">
+                            <ul class="t228__list ">
+                                <li class="t228__list_item" style="padding:0 15px 0 0;"><a class="t-menu__link-item" href="#how" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="1">How does it work?</a> </li>
+                                <li class="t228__list_item" style="padding:0 15px;"><a class="t-menu__link-item" href="#push" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="2">Book a table</a> </li>
+                                <li class="t228__list_item" style="padding:0 0 0 15px;"><a class="t-menu__link-item" href="#contacts" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="3">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="t228__rightside">
+                        <div class="t228__rightcontainer">
+                            <div class="t228__right_langs">
+                                <div class="t228__right_buttons_wrap">
+                                    <div class="t228__right_langs_lang"><a style="color:#ffffff;font-size:18px;font-weight:500;" href="index.html">BR</a></div>
+                                    <div class="t228__right_langs_lang"><a style="color:#ffffff;font-size:18px;font-weight:500;" href="en.html">EN</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t228__padding40px"></div>
+                </div>
+            </div>
+            <style>@media screen and (max-width: 980px) {
+			#rec388998470 .t228 { position: static;
+			}
+			}</style>
+            <script>
+            $(window).on('resize', function() {
+                t228_setBg('388998470');
+            });
+            $(document).ready(function() {
+                t228_highlight();
+                if (typeof t228__init === 'function') { t228__init('388998470'); } t228_setBg('388998470');
+            });
+            </script>
+            <!--[if IE 8]><style>#rec388998470 .t228 { filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9000000', endColorstr='#D9000000');
+}</style><![endif]-->
+            <style>#rec388998470 .t-menu__link-item{ -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; position: relative;	}
+#rec388998470 .t-menu__link-item::after { content: ''; position: absolute; left: 0;	bottom: 20%;	opacity: 0;	width: 100%;	height: 100%;	border-bottom: 0px solid #0ec2ea; -webkit-box-shadow: inset 0px -1px 0px 0px #0ec2ea; -moz-box-shadow: inset 0px -1px 0px 0px #0ec2ea; box-shadow: inset 0px -1px 0px 0px #0ec2ea; -webkit-transition: all 0.3s ease; transition: all 0.3s ease;
+}
+#rec388998470 .t-menu__link-item.t-active{ color:#0ec2ea !important; font-weight:500 !important; opacity:1 !important;}
+#rec388998470 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after{	opacity: 1;	bottom: -0px;	}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{ #rec388998470 .t-menu__link-item, #rec388998470 .t-menu__link-item.t-active { opacity: 1 !important; }
+}</style>
+            <script type="text/javascript">
+            $(document).ready(function() { setTimeout(function() { t_onFuncLoad('t_menusub_init', function() { t_menusub_init('388998470'); }); }, 500); });
+            </script>
+            <style>@media screen and (max-width: 980px) { #rec388998470 .t-menusub__menu .t-menusub__link-item { color:#ffffff !important; } #rec388998470 .t-menusub__menu .t-menusub__link-item.t-active { color:#ffffff !important; }
+}</style>
+        </div>
+        <div id="rec388998471" class="r t-rec t-screenmin-980px" style=" " data-animationappear="off" data-record-type="257" data-screen-min="980px">
+            <!-- T228 -->
+            <div id="nav388998471marker"></div>
+            <div id="nav388998471" class="t228 t228__positionfixed" style="background-color: rgb(35, 33, 79); height: 90px; visibility: hidden; opacity: 0; top: 0px;" data-bgcolor-hex="#23214f" data-bgcolor-rgba="rgba(35,33,79,1)" data-navmarker="nav388998471marker" data-appearoffset="90px" data-bgopacity-two="" data-menushadow="" data-bgopacity="1" data-menu-items-align="left" data-menu="yes">
+                <div class="t228__maincontainer t228__c12collumns" style="height:90px;">
+                    <div class="t228__padding40px"></div>
+                    <div class="t228__leftside">
+                        <div class="t228__leftcontainer"> <img src="./poks_live/live_35.png" class="t228__imglogo t228__imglogomobile" imgfield="img" style="max-width: 190px; width: 190px; min-width: 190px; height: auto; display: block;" alt=""> </div>
+                    </div>
+                    <div class="t228__centerside t228__menualign_left">
+                        <div class="t228__centercontainer">
+                            <ul class="t228__list ">
+                                <li class="t228__list_item" style="padding:0 15px 0 0;"><a class="t-menu__link-item" href="#how" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="1">How does it work?</a> </li>
+                                <li class="t228__list_item" style="padding:0 15px;"><a class="t-menu__link-item" href="#push" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="2">Book a table</a> </li>
+                                <li class="t228__list_item" style="padding:0 0 0 15px;"><a class="t-menu__link-item" href="#contacts" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;" data-menu-item-number="3">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="t228__rightside">
+                        <div class="t228__rightcontainer">
+                            <div class="t228__right_buttons">
+                                <div class="t228__right_buttons_wrap">
+                                    <div class="t228__right_buttons_but"><a href="https://wa.me/5511976198448" target="" class="t-btn " style="color:#ffffff;background-color:#0ec2ea;border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px;">
+                                            <table style="width:100%; height:100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Want to play</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </a></div>
+                                </div>
+                            </div>
+                            <div class="t228__right_langs">
+                                <div class="t228__right_buttons_wrap">
+                                    <div class="t228__right_langs_lang"><a style="color:#ffffff;font-size:18px;font-weight:500;" href="index.html">BR</a></div>
+                                    <div class="t228__right_langs_lang"><a style="color:#ffffff;font-size:18px;font-weight:500;" href="en.html">EN</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t228__padding40px"></div>
+                </div>
+            </div>
+            <style>@media screen and (max-width: 980px) { #rec388998471 .t228__leftcontainer { padding: 20px; } #rec388998471 .t228__imglogo { padding: 20px 0; }
+			#rec388998471 .t228 { position: static;
+			}
+			}</style>
+            <script>
+            $(window).on('resize', function() {
+                t228_setBg('388998471');
+            });
+            $(document).ready(function() {
+                t228_highlight();
+                t228_checkAnchorLinks('388998471');
+                if (typeof t228__init === 'function') { t228__init('388998471'); } t228_setBg('388998471');
+                $('#rec388998471 .t228').removeClass('t228__beforeready');
+                t228_appearMenu('388998471');
+                $(window).bind('scroll', t_throttle(function() { t228_appearMenu('388998471') }));
+            });
+            </script>
+            <!--[if IE 8]><style>#rec388998471 .t228 { filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D923214f', endColorstr='#D923214f');
+}</style><![endif]-->
+            <style>#rec388998471 .t-menu__link-item{ -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; position: relative;	}
+#rec388998471 .t-menu__link-item::after { content: ''; position: absolute; left: 0;	bottom: 20%;	opacity: 0;	width: 100%;	height: 100%;	border-bottom: 0px solid #0ec2ea; -webkit-box-shadow: inset 0px -1px 0px 0px #0ec2ea; -moz-box-shadow: inset 0px -1px 0px 0px #0ec2ea; box-shadow: inset 0px -1px 0px 0px #0ec2ea; -webkit-transition: all 0.3s ease; transition: all 0.3s ease;
+}
+#rec388998471 .t-menu__link-item.t-active{ color:#0ec2ea !important; font-weight:500 !important; opacity:1 !important;}
+#rec388998471 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after{	opacity: 1;	bottom: -0px;	}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{ #rec388998471 .t-menu__link-item, #rec388998471 .t-menu__link-item.t-active { opacity: 1 !important; }
+}</style>
+            <script type="text/javascript">
+            $(document).ready(function() { setTimeout(function() { t_onFuncLoad('t_menusub_init', function() { t_menusub_init('388998471'); }); }, 500); });
+            </script>
+            <style>@media screen and (max-width: 980px) { #rec388998471 .t-menusub__menu .t-menusub__link-item { color:#ffffff !important; } #rec388998471 .t-menusub__menu .t-menusub__link-item.t-active { color:#ffffff !important; }
+}</style>
+        </div>
+        <div id="rec388998472" class="r t-rec t-screenmax-980px" style=" " data-animationappear="off" data-record-type="309" data-screen-max="980px">
+            <!-- T280 -->
+            <div id="nav388998472marker"></div>
+            <div id="nav388998472" class="t280" data-menu="yes" data-appearoffset="">
+                <div class="t280__container t280__positionabsolute" style="">
+                    <div class="t280__container__bg" style="background-color: rgba(35,33,79,0.0); " data-bgcolor-hex="#23214f" data-bgcolor-rgba="rgba(35,33,79,0.0)" data-navmarker="nav388998472marker" data-appearoffset="" data-bgopacity="0.0" data-menu-shadow="0px 1px 3px rgba(0,0,0,0.)"></div>
+                    <div class="t280__menu__content t280__col-12">
+                        <div class="t280__logo__container" style="height:60px;">
+                            <div class="t280__burger"> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="t280__menu__wrapper t280__menu__wrapper_2">
+                    <div class="t280__menu__bg" style="background-color:#23214f; "></div>
+                    <div class="t280__menu__container">
+                        <div class="t280__menu t-width t-width_6"> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#how" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">How does it work?</a> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#push" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">Book a table</a> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#contacts" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">Contact Us</a> </div>
+                        <div class="t280__bottom t-width t-width_6">
+                            <div class="t280__lang t280__bottom__item"> <a class="t-descr t-descr_xxs" style="color:#ffffff;font-weight:500;" href="index.html">BR</a> <a class="t-descr t-descr_xxs" style="color:#ffffff;font-weight:500;" href="en.html">EN</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>@media screen and (max-width: 980px) { #rec388998472 .t280__main_opened .t280__menu__content { background-color:#23214f!important; opacity:1!important; }
+}</style>
+            <script>
+            $(document).ready(function() { t280_showMenu('388998472');
+                t280_changeSize('388998472');
+                t280_highlight(); });
+            $(window).resize(function() { t280_changeSize('388998472'); });
+            </script>
+            <style>#rec388998472 .t-menu__link-item{ -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; position: relative;	}
+#rec388998472 .t-menu__link-item::after { content: ''; position: absolute; left: 0;	bottom: 20%;	opacity: 0;	width: 100%;	height: 100%;	border-bottom: 0px solid #0ec2ea; -webkit-box-shadow: inset 0px -1px 0px 0px #0ec2ea; -moz-box-shadow: inset 0px -1px 0px 0px #0ec2ea; box-shadow: inset 0px -1px 0px 0px #0ec2ea; -webkit-transition: all 0.3s ease; transition: all 0.3s ease;
+}
+#rec388998472 .t-menu__link-item.t-active{ color:#0ec2ea !important; font-weight:500 !important; opacity:1 !important;}
+#rec388998472 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after{	opacity: 1;	bottom: -0px;	}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{ #rec388998472 .t-menu__link-item, #rec388998472 .t-menu__link-item.t-active { opacity: 1 !important; }
+}</style>
+            <script type="text/javascript">
+            $(document).ready(function() { setTimeout(function() { t_onFuncLoad('t_menusub_init', function() { t_menusub_init('388998472'); }); }, 500); });
+            </script>
+            <style>@media screen and (max-width: 980px) { #rec388998472 .t-menusub__menu .t-menusub__link-item { color:#ffffff !important; } #rec388998472 .t-menusub__menu .t-menusub__link-item.t-active { color:#ffffff !important; }
+}</style>
+            <!--[if IE 8]><style>#rec388998472 .t280__container__bg { filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D923214f', endColorstr='#D923214f');
+}</style><![endif]-->
+        </div>
+        <div id="rec388998473" class="r t-rec t-screenmax-980px" style=" " data-animationappear="off" data-record-type="309" data-screen-max="980px">
+            <!-- T280 -->
+            <div id="nav388998473marker"></div>
+            <div id="nav388998473" class="t280" data-menu="yes" data-appearoffset="60px" style="opacity: 0; visibility: hidden; top: -50px;">
+                <div class="t280__container t280__positionfixed" style="">
+                    <div class="t280__container__bg" style="background-color: rgba(35,33,79,1); " data-bgcolor-hex="#23214f" data-bgcolor-rgba="rgba(35,33,79,1)" data-navmarker="nav388998473marker" data-appearoffset="60px" data-bgopacity="1" data-menu-shadow="0px 1px 3px rgba(0,0,0,0.)"></div>
+                    <div class="t280__menu__content t280__col-12">
+                        <div class="t280__logo__container" style="height:60px;">
+                            <div class="t280__logo__content"><img src="./poks_live/live_35.png" style="height: 40px;" class="t280__logo__img" imgfield="img" alt=""></div>
+                            <div class="t280__burger"> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> <span style="background-color:#ffffff;"></span> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="t280__menu__wrapper t280__menu__wrapper_2">
+                    <div class="t280__menu__bg" style="background-color:#23214f; "></div>
+                    <div class="t280__menu__container">
+                        <div class="t280__menu t-width t-width_6"> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#how" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">How does it work?</a> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#push" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">Book a table</a> <a class="t280__menu__item t-title t-title_xl t-menu__link-item" href="#contacts" data-menu-submenu-hook="" style="color:#ffffff;font-size:18px;font-weight:500;">Contact Us</a> </div>
+                        <div class="t280__bottom t-width t-width_6">
+                            <div class="t280__lang t280__bottom__item"> <a class="t-descr t-descr_xxs" style="color:#ffffff;font-weight:500;" href="index.html">BR</a> <a class="t-descr t-descr_xxs" style="color:#ffffff;font-weight:500;" href="en.html">EN</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>@media screen and (max-width: 980px) { #rec388998473 .t280__main_opened .t280__menu__content { background-color:#23214f!important; opacity:1!important; }
+}</style>
+            <script>
+            $(document).ready(function() { $('.t280').removeClass('t280__beforeready');
+                t280_appearMenu('388998473');
+                $(window).bind('scroll', t_throttle(function() { t280_appearMenu('388998473') }, 200)); });
+            $(document).ready(function() { t280_showMenu('388998473');
+                t280_changeSize('388998473');
+                t280_highlight(); });
+            $(window).resize(function() { t280_changeSize('388998473'); });
+            </script>
+            <style>#rec388998473 .t-menu__link-item{ -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; position: relative;	}
+#rec388998473 .t-menu__link-item::after { content: ''; position: absolute; left: 0;	bottom: 20%;	opacity: 0;	width: 100%;	height: 100%;	border-bottom: 0px solid #0ec2ea; -webkit-box-shadow: inset 0px -1px 0px 0px #0ec2ea; -moz-box-shadow: inset 0px -1px 0px 0px #0ec2ea; box-shadow: inset 0px -1px 0px 0px #0ec2ea; -webkit-transition: all 0.3s ease; transition: all 0.3s ease;
+}
+#rec388998473 .t-menu__link-item.t-active{ color:#0ec2ea !important; font-weight:500 !important; opacity:1 !important;}
+#rec388998473 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after{	opacity: 1;	bottom: -0px;	}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{ #rec388998473 .t-menu__link-item, #rec388998473 .t-menu__link-item.t-active { opacity: 1 !important; }
+}</style>
+            <script type="text/javascript">
+            $(document).ready(function() { setTimeout(function() { t_onFuncLoad('t_menusub_init', function() { t_menusub_init('388998473'); }); }, 500); });
+            </script>
+            <style>@media screen and (max-width: 980px) { #rec388998473 .t-menusub__menu .t-menusub__link-item { color:#ffffff !important; } #rec388998473 .t-menusub__menu .t-menusub__link-item.t-active { color:#ffffff !important; }
+}</style>
+            <!--[if IE 8]><style>#rec388998473 .t280__container__bg { filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D923214f', endColorstr='#D923214f');
+}</style><![endif]-->
+        </div>
+        <div id="rec388998474" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>#rec388998474 .t396__artboard{height: 800px;background-color: #ffffff;}#rec388998474 .t396__filter{height: 800px;}#rec388998474 .t396__carrier{height: 800px;background-position: center center;background-attachment: scroll;background-image: url('./poks_live/001.png');background-size:cover;background-repeat:no-repeat;}@media screen and (max-width: 1199px){#rec388998474 .t396__artboard{height: 750px;background-color:#ffffff;}#rec388998474 .t396__filter{height: 750px;}#rec388998474 .t396__carrier{height: 750px;background-attachment:scroll;}}@media screen and (max-width: 959px){#rec388998474 .t396__artboard{height: 700px;background-color:#ffffff;}#rec388998474 .t396__filter{height: 700px;}#rec388998474 .t396__carrier{height: 700px;}}@media screen and (max-width: 639px){#rec388998474 .t396__artboard{height: 670px;background-color:#ffffff;}#rec388998474 .t396__filter{height: 670px;}#rec388998474 .t396__carrier{height: 670px;}}@media screen and (max-width: 479px){#rec388998474 .t396__artboard{height: 580px;background-color:#ffffff;}#rec388998474 .t396__filter{height: 580px;}#rec388998474 .t396__carrier{height: 580px;}}#rec388998474 .tn-elem[data-elem-id="1638787571580"]{color:#ffffff;z-index:2;top: 320px;left: calc(50% - 600px + 20px);width:1090px;}#rec388998474 .tn-elem[data-elem-id="1638787571580"] .tn-atom{color:#ffffff;font-size:50px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.2;font-weight:800;text-transform:uppercase;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998474 .tn-elem[data-elem-id="1638787571580"]{top: 320px;left: calc(50% - 480px + 10px);width:839px;}#rec388998474 .tn-elem[data-elem-id="1638787571580"]{color:#ffffff;}#rec388998474 .tn-elem[data-elem-id="1638787571580"] .tn-atom{color:#ffffff;font-size:40px;}}@media screen and (max-width: 959px){#rec388998474 .tn-elem[data-elem-id="1638787571580"]{top: 300px;left: calc(50% - 320px + 10px);width:624px;}#rec388998474 .tn-elem[data-elem-id="1638787571580"] .tn-atom{font-size:30px;}}@media screen and (max-width: 639px){#rec388998474 .tn-elem[data-elem-id="1638787571580"]{top: 200px;left: calc(50% - 240px + 10px);width:441px;}#rec388998474 .tn-elem[data-elem-id="1638787571580"] .tn-atom{font-size:26px;}}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638787571580"]{top: 160px;left: calc(50% - 160px + 10px);width:285px;}#rec388998474 .tn-elem[data-elem-id="1638787571580"] .tn-atom{font-size:22px;}}#rec388998474 .tn-elem[data-elem-id="1638787596381"]{z-index:3;top: 120px;left: calc(50% - 600px + -5px);width:490px;}#rec388998474 .tn-elem[data-elem-id="1638787596381"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998474 .tn-elem[data-elem-id="1638787596381"]{top: 120px;left: calc(50% - 480px + -5px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec388998474 .tn-elem[data-elem-id="1638787596381"]{top: 80px;left: calc(50% - 240px + -5px);width:295px;}}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638787596381"]{top: 70px;left: calc(50% - 160px + -5px);width:238px;}}#rec388998474 .tn-elem[data-elem-id="1638787709996"]{color:#ffffff;z-index:4;top: 528px;left: calc(50% - 600px + 20px);width:776px;}#rec388998474 .tn-elem[data-elem-id="1638787709996"] .tn-atom{color:#ffffff;font-size:22px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.4;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998474 .tn-elem[data-elem-id="1638787709996"]{top: 498px;left: calc(50% - 480px + 10px);width:647px;}}@media screen and (max-width: 959px){#rec388998474 .tn-elem[data-elem-id="1638787709996"]{top: 442px;left: calc(50% - 320px + 10px);width:541px;}#rec388998474 .tn-elem[data-elem-id="1638787709996"] .tn-atom{font-size:18px;}}@media screen and (max-width: 639px){#rec388998474 .tn-elem[data-elem-id="1638787709996"]{top: 360px;left: calc(50% - 240px + 10px);width:421px;}}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638787709996"]{top: 321px;left: calc(50% - 160px + 10px);width:295px;}#rec388998474 .tn-elem[data-elem-id="1638787709996"] .tn-atom{font-size:16px;}}#rec388998474 .tn-elem[data-elem-id="1638788018776"]{color:#ffffff;text-align:center;z-index:5;top: 635px;left: calc(50% - 600px + 20px);width:200px;height:55px;}#rec388998474 .tn-elem[data-elem-id="1638788018776"] .tn-atom{color:#ffffff;font-size:18px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.55;font-weight:600;border-radius:30px;background-color:#0ec2ea;background-position:center center;border-color:transparent;border-style:solid;transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;}@media screen and (max-width: 1199px){#rec388998474 .tn-elem[data-elem-id="1638788018776"]{top: 605px;left: calc(50% - 480px + 10px);}}@media screen and (max-width: 959px){#rec388998474 .tn-elem[data-elem-id="1638788018776"]{top: 535px;left: calc(50% - 320px + 10px);}}@media screen and (max-width: 639px){#rec388998474 .tn-elem[data-elem-id="1638788018776"]{top: 485px;left: calc(50% - 240px + 10px);}}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638788018776"]{top: 445px;left: calc(50% - 160px + 10px);}}#rec388998474 .tn-elem[data-elem-id="1638791652081"]{z-index:6;top: 610px;left: calc(50% - 600px + 247px);width:67px;}#rec388998474 .tn-elem[data-elem-id="1638791652081"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}#rec388998474 .tn-elem[data-elem-id="1638791652081"] .tn-atom{-webkit-transform:rotate(350deg); -moz-transform:rotate(350deg); transform:rotate(350deg);}@media screen and (max-width: 1199px){#rec388998474 .tn-elem[data-elem-id="1638791652081"]{top: 580px;left: calc(50% - 480px + 237px);}}@media screen and (max-width: 959px){#rec388998474 .tn-elem[data-elem-id="1638791652081"]{top: 510px;left: calc(50% - 320px + 237px);width:54px;}}@media screen and (max-width: 639px){#rec388998474 .tn-elem[data-elem-id="1638791652081"]{top: 460px;left: calc(50% - 240px + 237px);}}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638791652081"]{top: 420px;left: calc(50% - 160px + 237px);}}#rec388998474 .tn-elem[data-elem-id="1638796471047"]{z-index:7;top: calc(800px + -31px);left: calc(50% - 16.5px + 1px);width:33px;}#rec388998474 .tn-elem[data-elem-id="1638796471047"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec388998474 .tn-elem[data-elem-id="1638796471047"]{top: calc(580px + -31px);left: calc(50% - 10.5px + 1px);width:21px;}}</style>
+            <div class="t396">
+                <div class="t396__artboard rendered" data-artboard-recid="388998474" data-artboard-height="800" data-artboard-height-res-960="750" data-artboard-height-res-640="700" data-artboard-height-res-480="670" data-artboard-height-res-320="580" data-artboard-height_vh="" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-ovrflw="" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="800" data-artboard-proxy-max-height="800">
+                    <div class="t396__carrier t-bgimg loaded" data-artboard-recid="388998474" data-original="./poks_live/001_1.png" style="background-image: url(&quot;./poks_live/001_1.png&quot;);"></div>
+                    <div class="t396__filter" data-artboard-recid="388998474"></div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638787571580" data-elem-id="1638787571580" data-elem-type="text" data-field-top-value="320" data-field-top-res-960-value="320" data-field-top-res-640-value="300" data-field-top-res-480-value="200" data-field-top-res-320-value="160" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="1090" data-field-width-res-960-value="839" data-field-width-res-640-value="624" data-field-width-res-480-value="441" data-field-width-res-320-value="285" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 320px; left: 96px; width: 1090px;">
+                        <div class="tn-atom" field="tn_text_1638787571580">A turn-key concierge solution to book a poker table & experience at any convenient location</div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638787596381" data-elem-id="1638787596381" data-elem-type="image" data-field-top-value="120" data-field-top-res-960-value="120" data-field-top-res-480-value="80" data-field-top-res-320-value="70" data-field-left-value="-5" data-field-left-res-960-value="-5" data-field-left-res-480-value="-5" data-field-left-res-320-value="-5" data-field-width-value="490" data-field-width-res-480-value="295" data-field-width-res-320-value="238" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="1303" data-field-fileheight-value="399" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 71px; top: 120px; width: 490px;">
+                        <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/live_35.png" imgfield="tn_img_1638787596381" src="./poks_live/live_35(1).png"> </div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638787709996" data-elem-id="1638787709996" data-elem-type="text" data-field-top-value="528" data-field-top-res-960-value="498" data-field-top-res-640-value="442" data-field-top-res-480-value="360" data-field-top-res-320-value="321" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="776" data-field-width-res-960-value="647" data-field-width-res-640-value="541" data-field-width-res-480-value="421" data-field-width-res-320-value="295" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 528px; left: 96px; width: 776px;">
+                        <div class="tn-atom" field="tn_text_1638787709996">Just let us know when and how you would like to spend time with friends playing poker and don’t think of anything else. We will take care of everything!</div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638788018776" data-elem-id="1638788018776" data-elem-type="button" data-field-top-value="635" data-field-top-res-960-value="605" data-field-top-res-640-value="535" data-field-top-res-480-value="485" data-field-top-res-320-value="445" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-height-value="55" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="" data-fields="top,left,width,height,container,axisx,axisy,caption,leftunits,topunits" style="top: 635px; left: 96px; width: 200px; height: 55px;"> <a class="tn-atom" href="https://wa.me/5511976198448">Want to play</a> </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638791652081 t-sbs-anim_started" data-elem-id="1638791652081" data-elem-type="image" data-field-top-value="610" data-field-top-res-960-value="580" data-field-top-res-640-value="510" data-field-top-res-480-value="460" data-field-top-res-320-value="420" data-field-left-value="247" data-field-left-res-960-value="237" data-field-left-res-640-value="237" data-field-left-res-480-value="237" data-field-left-res-320-value="237" data-field-width-value="67" data-field-width-res-640-value="54" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-loop="loop" data-animate-sbs-opts="[{&#39;ti&#39;:&#39;0&#39;,&#39;mx&#39;:&#39;0&#39;,&#39;my&#39;:&#39;0&#39;,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:&#39;0&#39;,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;&#39;,&#39;dt&#39;:&#39;0&#39;},{&#39;ti&#39;:&#39;1000&#39;,&#39;mx&#39;:-8,&#39;my&#39;:7,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:10,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;easeInOut&#39;,&#39;dt&#39;:&#39;0&#39;},{&#39;ti&#39;:&#39;1000&#39;,&#39;mx&#39;:0,&#39;my&#39;:0,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:0,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;easeInOut&#39;,&#39;dt&#39;:&#39;0&#39;}]" data-field-filewidth-value="661" data-field-fileheight-value="566" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 323px; top: 610px; width: 67px; filter: none; backdrop-filter: none;">
+                        <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; filter: none; backdrop-filter: none;">
+                            <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/arrow.png" imgfield="tn_img_1638791652081" src="./poks_live/arrow.png"> </div>
+                        </div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984741638796471047 t-sbs-anim_started" data-elem-id="1638796471047" data-elem-type="image" data-field-top-value="-31" data-field-top-res-320-value="-31" data-field-left-value="1" data-field-left-res-320-value="1" data-field-width-value="33" data-field-width-res-320-value="21" data-field-axisy-value="bottom" data-field-axisx-value="center" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-loop="loop" data-animate-sbs-opts="[{&#39;ti&#39;:&#39;0&#39;,&#39;mx&#39;:&#39;0&#39;,&#39;my&#39;:&#39;0&#39;,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:&#39;0&#39;,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;&#39;,&#39;dt&#39;:&#39;0&#39;},{&#39;ti&#39;:&#39;1000&#39;,&#39;mx&#39;:&#39;0&#39;,&#39;my&#39;:14,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:&#39;0&#39;,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;easeInOut&#39;,&#39;dt&#39;:&#39;0&#39;},{&#39;ti&#39;:&#39;1000&#39;,&#39;mx&#39;:&#39;0&#39;,&#39;my&#39;:0,&#39;sx&#39;:&#39;1&#39;,&#39;sy&#39;:&#39;1&#39;,&#39;op&#39;:&#39;1&#39;,&#39;ro&#39;:&#39;0&#39;,&#39;bl&#39;:&#39;0&#39;,&#39;ea&#39;:&#39;easeInOut&#39;,&#39;dt&#39;:&#39;0&#39;}]" data-field-filewidth-value="627" data-field-fileheight-value="615" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 660.5px; top: 736.6px; width: 33px; filter: none; backdrop-filter: none;">
+                        <div class="tn-atom__sbs-anim-wrapper" style="display: table; width: inherit; height: inherit; filter: none; backdrop-filter: none;">
+                            <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/3-1.png" imgfield="tn_img_1638796471047" src="./poks_live/3-1.png"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+            $(document).ready(function() {
+                t396_init('388998474');
+            });
+            </script><!-- /T396 -->
+        </div>
+        <div id="rec388998475" class="r t-rec r_showed r_anim" style=" " data-record-type="215"><a name="how" style="font-size:0;"></a></div>
+        <div id="rec388998476" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>#rec388998476 .t396__artboard{height: 700px;background-color: #6b6b6b;}#rec388998476 .t396__filter{height: 700px;}#rec388998476 .t396__carrier{height: 700px;background-position: left center;background-attachment: scroll;background-image: url('./poks_live/002.png');background-size:cover;background-repeat:no-repeat;}@media screen and (max-width: 1199px){#rec388998476 .t396__artboard{height: 560px;background-color:#6b6b6b;}#rec388998476 .t396__filter{height: 560px;}#rec388998476 .t396__carrier{height: 560px;background-attachment:scroll;}}@media screen and (max-width: 959px){#rec388998476 .t396__artboard{height: 280px;background-color:#6b6b6b;}#rec388998476 .t396__filter{height: 280px;}#rec388998476 .t396__carrier{height: 280px;}}@media screen and (max-width: 639px){#rec388998476 .t396__artboard{height: 270px;background-color:#6b6b6b;}#rec388998476 .t396__filter{height: 270px;}#rec388998476 .t396__carrier{height: 270px;}}@media screen and (max-width: 479px){#rec388998476 .t396__artboard{height: 310px;background-color:#6b6b6b;}#rec388998476 .t396__filter{height: 310px;}#rec388998476 .t396__carrier{height: 310px;}}#rec388998476 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;z-index:2;top: 183px;left: calc(50% - 600px + 20px);width:684px;}#rec388998476 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;font-size:60px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.2;font-weight:800;text-transform:uppercase;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998476 .tn-elem[data-elem-id="1638788975068"]{top: 83px;left: calc(50% - 480px + 10px);}#rec388998476 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998476 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;}}@media screen and (max-width: 959px){#rec388998476 .tn-elem[data-elem-id="1638788975068"]{top: 43px;left: calc(50% - 320px + 10px);}#rec388998476 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998476 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;font-size:30px;}}@media screen and (max-width: 639px){#rec388998476 .tn-elem[data-elem-id="1638788975068"]{top: 33px;left: calc(50% - 240px + 10px);}#rec388998476 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998476 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;}}@media screen and (max-width: 479px){#rec388998476 .tn-elem[data-elem-id="1638788975068"]{top: 43px;left: calc(50% - 160px + 10px);}#rec388998476 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998476 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;font-size:24px;}}#rec388998476 .tn-elem[data-elem-id="1638789076688"]{color:#011f47;z-index:3;top: 318px;left: calc(50% - 600px + 20px);width:907px;}#rec388998476 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#011f47;font-size:30px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.4;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998476 .tn-elem[data-elem-id="1638789076688"]{top: 218px;left: calc(50% - 480px + 10px);}#rec388998476 .tn-elem[data-elem-id="1638789076688"]{color:#011f47;}#rec388998476 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#011f47;}}@media screen and (max-width: 959px){#rec388998476 .tn-elem[data-elem-id="1638789076688"]{top: 108px;left: calc(50% - 320px + 10px);width:607px;}#rec388998476 .tn-elem[data-elem-id="1638789076688"]{color:#011f47;}#rec388998476 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#011f47;font-size:18px;}}@media screen and (max-width: 639px){#rec388998476 .tn-elem[data-elem-id="1638789076688"]{top: 88px;left: calc(50% - 240px + 10px);width:457px;}#rec388998476 .tn-elem[data-elem-id="1638789076688"]{color:#011f47;}#rec388998476 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#011f47;}}@media screen and (max-width: 479px){#rec388998476 .tn-elem[data-elem-id="1638789076688"]{top: 94px;left: calc(50% - 160px + 10px);width:298px;}#rec388998476 .tn-elem[data-elem-id="1638789076688"]{color:#011f47;}#rec388998476 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#011f47;font-size:16px;}}#rec388998476 .tn-elem[data-elem-id="1638789509534"]{z-index:4;top: 76px;left: calc(50% - 600px + 896px);width:282px;}#rec388998476 .tn-elem[data-elem-id="1638789509534"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998476 .tn-elem[data-elem-id="1638789509534"]{top: 15px;left: calc(50% - 480px + 730px);width:220px;}}@media screen and (max-width: 959px){#rec388998476 .tn-elem[data-elem-id="1638789509534"]{top: 10px;left: calc(50% - 320px + 500px);width:87px;}}@media screen and (max-width: 639px){#rec388998476 .tn-elem[data-elem-id="1638789509534"]{top: 1px;left: calc(50% - 240px + 393px);}}@media screen and (max-width: 479px){#rec388998476 .tn-elem[data-elem-id="1638789509534"]{top: 13px;left: calc(50% - 160px + 252px);width:68px;}}#rec388998476 .tn-elem[data-elem-id="1638789519268"]{z-index:5;top: 359px;left: calc(50% - 600px + 974px);width:254px;}#rec388998476 .tn-elem[data-elem-id="1638789519268"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998476 .tn-elem[data-elem-id="1638789519268"]{top: 394px;left: calc(50% - 480px + 776px);width:197px;}}@media screen and (max-width: 959px){#rec388998476 .tn-elem[data-elem-id="1638789519268"]{top: 178px;left: calc(50% - 320px + 558px);width:82px;}}@media screen and (max-width: 639px){#rec388998476 .tn-elem[data-elem-id="1638789519268"]{top: 195px;left: calc(50% - 240px + 410px);}}@media screen and (max-width: 479px){#rec388998476 .tn-elem[data-elem-id="1638789519268"]{top: 244px;left: calc(50% - 160px + 237px);width:71px;}}</style>
+            <div class="t396">
+                <div class="t396__artboard rendered" data-artboard-recid="388998476" data-artboard-height="700" data-artboard-height-res-960="560" data-artboard-height-res-640="280" data-artboard-height-res-480="270" data-artboard-height-res-320="310" data-artboard-height_vh="" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-ovrflw="" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="700" data-artboard-proxy-max-height="700">
+                    <div class="t396__carrier t-bgimg loaded" data-artboard-recid="388998476" data-original="./poks_live/002_1.png" style="background-image: url(&quot;./poks_live/002_1.png&quot;);"></div>
+                    <div class="t396__filter" data-artboard-recid="388998476"></div>
+                    <div class="t396__elem tn-elem tn-elem__3889984761638788975068" data-elem-id="1638788975068" data-elem-type="text" data-field-top-value="183" data-field-top-res-960-value="83" data-field-top-res-640-value="43" data-field-top-res-480-value="33" data-field-top-res-320-value="43" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="684" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 183px; left: 96px; width: 684px;">
+                        <div class="tn-atom" field="tn_text_1638788975068">How <span style="color: rgb(1, 31, 71);">does it work?</span></div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984761638789076688" data-elem-id="1638789076688" data-elem-type="text" data-field-top-value="318" data-field-top-res-960-value="218" data-field-top-res-640-value="108" data-field-top-res-480-value="88" data-field-top-res-320-value="94" data-field-left-value="20" data-field-left-res-960-value="10" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="907" data-field-width-res-640-value="607" data-field-width-res-480-value="457" data-field-width-res-320-value="298" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 318px; left: 96px; width: 907px;">
+                        <div class="tn-atom" field="tn_text_1638789076688">From now and on you can easily book a poker table & experience with friends at any convenient location and stop worrying about everything: we will suggest you <strong>several pre-selected locations, quality poker equipment, poker personnel, music, and food of your choice. You will not forget this experience!</strong></div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984761638789509534" data-elem-id="1638789509534" data-elem-type="image" data-field-top-value="76" data-field-top-res-960-value="15" data-field-top-res-640-value="10" data-field-top-res-480-value="1" data-field-top-res-320-value="13" data-field-left-value="896" data-field-left-res-960-value="730" data-field-left-res-640-value="500" data-field-left-res-480-value="393" data-field-left-res-320-value="252" data-field-width-value="282" data-field-width-res-960-value="220" data-field-width-res-640-value="87" data-field-width-res-320-value="68" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="214" data-field-fileheight-value="215" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 972px; top: 76px; width: 282px;">
+                        <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/004.png" imgfield="tn_img_1638789509534" src="./poks_live/004.png"> </div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984761638789519268" data-elem-id="1638789519268" data-elem-type="image" data-field-top-value="359" data-field-top-res-960-value="394" data-field-top-res-640-value="178" data-field-top-res-480-value="195" data-field-top-res-320-value="244" data-field-left-value="974" data-field-left-res-960-value="776" data-field-left-res-640-value="558" data-field-left-res-480-value="410" data-field-left-res-320-value="237" data-field-width-value="254" data-field-width-res-960-value="197" data-field-width-res-640-value="82" data-field-width-res-320-value="71" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="141" data-field-fileheight-value="143" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 1050px; top: 359px; width: 254px;">
+                        <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/005.png" imgfield="tn_img_1638789519268" src="./poks_live/005.png"> </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+            $(document).ready(function() {
+                t396_init('388998476');
+            });
+            </script><!-- /T396 -->
+        </div>
+        <div id="rec388998477" class="r t-rec r_anim r_showed" style=" " data-record-type="215"><a name="push" style="font-size:0;"></a></div>
+        <div id="rec388998478" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>#rec388998478 .t396__artboard{height: 700px;background-color: #6b6b6b;}#rec388998478 .t396__filter{height: 700px;}#rec388998478 .t396__carrier{height: 700px;background-position: left center;background-attachment: scroll;background-image: url('./poks_live/003_.png');background-size:cover;background-repeat:no-repeat;}@media screen and (max-width: 1199px){#rec388998478 .t396__artboard{height: 470px;background-color:#6b6b6b;}#rec388998478 .t396__filter{height: 470px;}#rec388998478 .t396__carrier{height: 470px;background-attachment:scroll;}}@media screen and (max-width: 959px){#rec388998478 .t396__artboard{height: 290px;background-color:#6b6b6b;}#rec388998478 .t396__filter{height: 290px;}#rec388998478 .t396__carrier{height: 290px;}}@media screen and (max-width: 639px){#rec388998478 .t396__artboard{height: 270px;background-color:#6b6b6b;}#rec388998478 .t396__filter{height: 270px;}#rec388998478 .t396__carrier{height: 270px;}}@media screen and (max-width: 479px){#rec388998478 .t396__artboard{height: 300px;background-color:#6b6b6b;}#rec388998478 .t396__filter{height: 300px;}#rec388998478 .t396__carrier{height: 300px;}}#rec388998478 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;z-index:2;top: 183px;left: calc(50% - 600px + 466px);width:676px;}#rec388998478 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;font-size:60px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.2;font-weight:800;text-transform:uppercase;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998478 .tn-elem[data-elem-id="1638788975068"]{top: 83px;left: calc(50% - 480px + 312px);}#rec388998478 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998478 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;}}@media screen and (max-width: 959px){#rec388998478 .tn-elem[data-elem-id="1638788975068"]{top: 42px;left: calc(50% - 320px + 10px);}#rec388998478 .tn-elem[data-elem-id="1638788975068"] .tn-atom{font-size:30px;}}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec388998478 .tn-elem[data-elem-id="1638788975068"]{top: 43px;left: calc(50% - 160px + 10px);}#rec388998478 .tn-elem[data-elem-id="1638788975068"]{color:#ffffff;}#rec388998478 .tn-elem[data-elem-id="1638788975068"] .tn-atom{color:#ffffff;font-size:24px;}}#rec388998478 .tn-elem[data-elem-id="1638789076688"]{color:#1f472f;z-index:3;top: 318px;left: calc(50% - 600px + 466px);width:714px;}#rec388998478 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#1f472f;font-size:30px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.4;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998478 .tn-elem[data-elem-id="1638789076688"]{top: 208px;left: calc(50% - 480px + 312px);width:643px;}#rec388998478 .tn-elem[data-elem-id="1638789076688"]{color:#1f472f;}#rec388998478 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#1f472f;}}@media screen and (max-width: 959px){#rec388998478 .tn-elem[data-elem-id="1638789076688"]{top: 105px;left: calc(50% - 320px + 10px);width:446px;}#rec388998478 .tn-elem[data-elem-id="1638789076688"] .tn-atom{font-size:18px;}}@media screen and (max-width: 639px){#rec388998478 .tn-elem[data-elem-id="1638789076688"]{top: 95px;left: calc(50% - 240px + 10px);}#rec388998478 .tn-elem[data-elem-id="1638789076688"]{color:#1f472f;}#rec388998478 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#1f472f;}}@media screen and (max-width: 479px){#rec388998478 .tn-elem[data-elem-id="1638789076688"]{top: 94px;left: calc(50% - 160px + 10px);width:274px;}#rec388998478 .tn-elem[data-elem-id="1638789076688"]{color:#1f472f;}#rec388998478 .tn-elem[data-elem-id="1638789076688"] .tn-atom{color:#1f472f;font-size:16px;}}#rec388998478 .tn-elem[data-elem-id="1638789509534"]{z-index:4;top: 155px;left: calc(50% - 600px + -30px);width:258px;}#rec388998478 .tn-elem[data-elem-id="1638789509534"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998478 .tn-elem[data-elem-id="1638789509534"]{top: 0px;left: calc(50% - 480px + 0px);width:169px;}}@media screen and (max-width: 959px){#rec388998478 .tn-elem[data-elem-id="1638789509534"]{top: 10px;left: calc(50% - 320px + 490px);width:112px;}}@media screen and (max-width: 639px){#rec388998478 .tn-elem[data-elem-id="1638789509534"]{top: 25px;left: calc(50% - 240px + 386px);width:70px;}}@media screen and (max-width: 479px){#rec388998478 .tn-elem[data-elem-id="1638789509534"]{top: 130px;left: calc(50% - 160px + 243px);width:70px;}}#rec388998478 .tn-elem[data-elem-id="1638789519268"]{z-index:5;top: 365px;left: calc(50% - 600px + 210px);width:200px;}#rec388998478 .tn-elem[data-elem-id="1638789519268"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec388998478 .tn-elem[data-elem-id="1638789519268"]{top: 227px;left: calc(50% - 480px + 90px);width:180px;}}@media screen and (max-width: 959px){#rec388998478 .tn-elem[data-elem-id="1638789519268"]{top: 145px;left: calc(50% - 320px + 440px);width:88px;}}@media screen and (max-width: 639px){#rec388998478 .tn-elem[data-elem-id="1638789519268"]{top: 160px;left: calc(50% - 240px + 280px);}}@media screen and (max-width: 479px){#rec388998478 .tn-elem[data-elem-id="1638789519268"]{top: 227px;left: calc(50% - 160px + 210px);width:62px;}}#rec388998478 .tn-elem[data-elem-id="1638790374653"]{color:#ffffff;text-align:center;z-index:6;top: 484px;left: calc(50% - 600px + 466px);width:200px;height:55px;}#rec388998478 .tn-elem[data-elem-id="1638790374653"] .tn-atom{color:#ffffff;font-size:18px;font-family:'Source Sans Pro',Arial,sans-serif;line-height:1.55;font-weight:600;border-radius:30px;background-color:#0f472f;background-position:center center;border-color:transparent;border-style:solid;transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;}@media screen and (max-width: 1199px){#rec388998478 .tn-elem[data-elem-id="1638790374653"]{top: 324px;left: calc(50% - 480px + 312px);}#rec388998478 .tn-elem[data-elem-id="1638790374653"]{color:#ffffff;}#rec388998478 .tn-elem[data-elem-id="1638790374653"] .tn-atom{color:#ffffff;}}@media screen and (max-width: 959px){#rec388998478 .tn-elem[data-elem-id="1638790374653"]{top: 176px;left: calc(50% - 320px + 10px);}}@media screen and (max-width: 639px){#rec388998478 .tn-elem[data-elem-id="1638790374653"]{top: 166px;left: calc(50% - 240px + 10px);}#rec388998478 .tn-elem[data-elem-id="1638790374653"]{color:#ffffff;}#rec388998478 .tn-elem[data-elem-id="1638790374653"] .tn-atom{color:#ffffff;}}@media screen and (max-width: 479px){#rec388998478 .tn-elem[data-elem-id="1638790374653"]{top: 196px;left: calc(50% - 160px + 10px);}}</style>
+            <div class="t396">
+                <div class="t396__artboard rendered" data-artboard-recid="388998478" data-artboard-height="700" data-artboard-height-res-960="470" data-artboard-height-res-640="290" data-artboard-height-res-480="270" data-artboard-height-res-320="300" data-artboard-height_vh="" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-ovrflw="" data-artboard-proxy-min-offset-top="0" data-artboard-proxy-min-height="700" data-artboard-proxy-max-height="700">
+                    <div class="t396__carrier t-bgimg loaded" data-artboard-recid="388998478" data-original="./poks_live/003_1.png" style="background-image: url(&quot;./poks_live/003_1.png&quot;);"></div>
+                    <div class="t396__filter" data-artboard-recid="388998478"></div>
+                    <div class="t396__elem tn-elem tn-elem__3889984781638788975068" data-elem-id="1638788975068" data-elem-type="text" data-field-top-value="183" data-field-top-res-960-value="83" data-field-top-res-640-value="42" data-field-top-res-320-value="43" data-field-left-value="466" data-field-left-res-960-value="312" data-field-left-res-640-value="10" data-field-left-res-320-value="10" data-field-width-value="676" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 183px; left: 542px; width: 676px;">
+                        <div class="tn-atom" field="tn_text_1638788975068">How <span style="color: rgb(31, 71, 47);">to book a table?</span></div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984781638789076688" data-elem-id="1638789076688" data-elem-type="text" data-field-top-value="318" data-field-top-res-960-value="208" data-field-top-res-640-value="105" data-field-top-res-480-value="95" data-field-top-res-320-value="94" data-field-left-value="466" data-field-left-res-960-value="312" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-width-value="714" data-field-width-res-960-value="643" data-field-width-res-640-value="446" data-field-width-res-320-value="274" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 318px; left: 542px; width: 714px;">
+                        <div class="tn-atom" field="tn_text_1638789076688">Just send us a request <strong>“I want”</strong> and we will contact you and arrange everything. <strong>It’s that easy!</strong></div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984781638789509534" data-elem-id="1638789509534" data-elem-type="image" data-field-top-value="155" data-field-top-res-960-value="0" data-field-top-res-640-value="10" data-field-top-res-480-value="25" data-field-top-res-320-value="130" data-field-left-value="-30" data-field-left-res-960-value="0" data-field-left-res-640-value="490" data-field-left-res-480-value="386" data-field-left-res-320-value="243" data-field-width-value="258" data-field-width-res-960-value="169" data-field-width-res-640-value="112" data-field-width-res-480-value="70" data-field-width-res-320-value="70" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="224" data-field-fileheight-value="225" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 46px; top: 155px; width: 258px;">
+                        <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/001_2.png" imgfield="tn_img_1638789509534" src="./poks_live/001_2.png"> </div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984781638789519268" data-elem-id="1638789519268" data-elem-type="image" data-field-top-value="365" data-field-top-res-960-value="227" data-field-top-res-640-value="145" data-field-top-res-480-value="160" data-field-top-res-320-value="227" data-field-left-value="210" data-field-left-res-960-value="90" data-field-left-res-640-value="440" data-field-left-res-480-value="280" data-field-left-res-320-value="210" data-field-width-value="200" data-field-width-res-960-value="180" data-field-width-res-640-value="88" data-field-width-res-320-value="62" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="170" data-field-fileheight-value="171" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 286px; top: 365px; width: 200px;">
+                        <div class="tn-atom"> <img class="tn-atom__img t-img loaded" data-original="./poks_live/002_2.png" imgfield="tn_img_1638789519268" src="./poks_live/002_2.png"> </div>
+                    </div>
+                    <div class="t396__elem tn-elem tn-elem__3889984781638790374653" data-elem-id="1638790374653" data-elem-type="button" data-field-top-value="484" data-field-top-res-960-value="324" data-field-top-res-640-value="176" data-field-top-res-480-value="166" data-field-top-res-320-value="196" data-field-left-value="466" data-field-left-res-960-value="312" data-field-left-res-640-value="10" data-field-left-res-480-value="10" data-field-left-res-320-value="10" data-field-height-value="55" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="" data-fields="top,left,width,height,container,axisx,axisy,caption,leftunits,topunits" style="top: 484px; left: 542px; width: 200px; height: 55px;"> <a class="tn-atom" href="https://wa.me/5511976198448">Want to play</a> </div>
+                </div>
+            </div>
+            <script>
+            $(document).ready(function() {
+                t396_init('388998478');
+            });
+            </script><!-- /T396 -->
+        </div>
+        <div id="rec388998479" class="r t-rec t-rec_pt_90 t-rec_pt-res-480_30 t-rec_pb_90 t-rec_pb-res-480_30 ticker-wrapper" style="padding-top:90px;padding-bottom:90px;background-color:#23214f; " data-record-type="106" data-bg-color="#23214f" data-animationappear="off">
+            <!-- T004 -->
+            <div class="t004 ticker">
+                <div class="ticker-group ticker-group_to-right ticker-group_animated" style="animation-duration: 26900ms;">
+                    <div field="text" class="t-text t-text_md  ticker-text" style="color: rgb(255, 255, 255); font-size: 80px; margin-right: 100px;"><strong><em>POKS – Poker the way you like it</em></strong></div>
+                    <div field="text" class="t-text t-text_md  ticker-text" style="color: white; font-size: 80px; margin-right: 100px;"><strong><em>POKS – Poker the way you like it</em></strong></div>
+                </div>
+                <div class="ticker-group ticker-group_to-right ticker-group_animated" style="animation-duration: 26900ms;">
+                    <div field="text" class="t-text t-text_md  ticker-text" style="color: rgb(255, 255, 255); font-size: 80px; margin-right: 100px;"><strong><em>POKS – Poker the way you like it</em></strong></div>
+                    <div field="text" class="t-text t-text_md  ticker-text" style="color: white; font-size: 80px; margin-right: 100px;"><strong><em>POKS – Poker the way you like it</em></strong></div>
+                </div>
+            </div>
+        </div>
+        <div id="rec388998480" class="r t-rec r_anim r_showed" style=" " data-record-type="215"><a name="contacts" style="font-size:0;"></a></div>
+        <div id="rec388998481" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="465">
+            <!-- T465 -->
+            <div class="t465">
+                <div class="t-container__100 t465__container">
+                    <div class="t465__item"> <a style="height: 160px;" class="t465__instagram" href="https://www.instagram.com/poks.live/" target="_blank" rel="nofollow noopener">
+                            <div class="t465__iconwrapper"> <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+                                    <desc>Instagram</desc>
+                                    <path style="fill:#fff;" d="M16.396,3.312H8.604c-2.921,0-5.292,2.371-5.292,5.273v7.846c0,2.886,2.371,5.256,5.292,5.256h7.791c2.922,0,5.292-2.37,5.292-5.274V8.586C21.688,5.683,19.317,3.312,16.396,3.312L16.396,3.312z M7.722,12.5c0-2.64,2.142-4.778,4.778-4.778c2.636,0,4.777,2.138,4.777,4.778s-2.142,4.777-4.777,4.777C9.864,17.277,7.722,15.14,7.722,12.5zM17.756,8.182c-0.615,0-1.104-0.487-1.104-1.102s0.488-1.103,1.104-1.103c0.614,0,1.102,0.488,1.102,1.103S18.37,8.182,17.756,8.182L17.756,8.182z"></path>
+                                    <path style="fill:#fff;" d="M12.5,9.376c-1.731,0-3.124,1.398-3.124,3.124c0,1.725,1.393,3.124,3.124,3.124c1.732,0,3.124-1.399,3.124-3.124C15.624,10.775,14.211,9.376,12.5,9.376L12.5,9.376z"></path>
+                                </svg> </div>
+                        </a> </div>
+                    <div class="t465__item"> <a style="height: 160px;" class="t465__telegram" href="https://wa.me/5511976198448" target="_blank" rel="nofollow noopener">
+                            <div class="t465__iconwrapper"> <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 109 109" enable-background="new 0 0 109 109" xml:space="preserve">
+                                    <desc>Whatsapp</desc>
+                                    <path style="fill:#fff;" fill-rule="evenodd" clip-rule="evenodd" d="M55.6702 13.0674C66.4592 13.0714 76.586 17.2715 84.2004 24.8953C91.816 32.519 96.0067 42.6512 96 53.4294C95.9906 75.6655 77.8968 93.7592 55.6689 93.7592H55.6527C48.9038 93.7565 42.2705 92.0635 36.3801 88.8499L15 94.4576L20.7222 73.558C17.1936 67.4429 15.3364 60.5041 15.3391 53.3958C15.3472 31.1584 33.441 13.0674 55.6702 13.0674ZM67.1819 58.39C68.1064 58.7265 73.0601 61.1636 74.0681 61.6683C74.2629 61.7658 74.4452 61.854 74.6143 61.9358C75.32 62.277 75.7963 62.5074 75.9993 62.8472C76.2509 63.2671 76.2509 65.2857 75.4112 67.6394C74.5714 69.9932 70.5462 72.141 68.6097 72.4303C66.8723 72.6901 64.676 72.7977 62.2617 72.0307C60.7976 71.5664 58.9216 70.9473 56.5167 69.9084C47.0657 65.827 40.6798 56.6657 39.4769 54.94C39.3931 54.8198 39.3345 54.7357 39.3017 54.6919L39.298 54.6869C38.7795 53.997 35.1864 49.216 35.1864 44.2676C35.1864 39.6279 37.4646 37.1957 38.5146 36.0747C38.5872 35.9972 38.6539 35.9259 38.7136 35.8606C39.6382 34.8513 40.7296 34.5997 41.4011 34.5997C42.0727 34.5997 42.7455 34.6051 43.3323 34.6347C43.4048 34.6383 43.4803 34.6378 43.5582 34.6374C44.1458 34.6338 44.8775 34.6294 45.5999 36.364C45.8788 37.034 46.2874 38.0286 46.7181 39.0768C47.5841 41.1847 48.5392 43.5093 48.7073 43.8464C48.9589 44.3511 49.1271 44.9391 48.7907 45.612C48.7395 45.7141 48.6923 45.8104 48.6472 45.9024C48.3954 46.4155 48.2095 46.7942 47.7827 47.2929C47.6152 47.4887 47.4419 47.6996 47.2687 47.9107C46.9214 48.3337 46.574 48.7569 46.2714 49.0585C45.7668 49.5605 45.2419 50.1055 45.83 51.1148C46.4181 52.1228 48.4408 55.4226 51.4365 58.0953C54.6557 60.9679 57.4542 62.1816 58.8734 62.7971C59.1509 62.9175 59.3757 63.0149 59.5406 63.0975C60.5473 63.6022 61.1354 63.5187 61.7234 62.8458C62.3115 62.173 64.2427 59.904 64.9142 58.8947C65.5858 57.8854 66.2587 58.0536 67.1819 58.39Z"></path>
+                                </svg> </div>
+                        </a> </div>
+                </div>
+            </div>
+        </div>
+        <div id="rec388998482" class="r t-rec" style=" " data-animationappear="off" data-record-type="270">
+            <div class="t270" data-offset-top="90" data-offset-top-mobile="60" data-history-disabled="yes"></div>
+            <script>
+            $(document).ready(function() {
+                var hash = window.location.hash;
+                if (hash !== "") { if (window.isMobile) { t270_scroll(hash, 60); } else { t270_scroll(hash, 90); } } setTimeout(function() { var curPath = window.location.pathname; var curFullPath = window.location.origin + curPath;
+                    $('a[href^="#"]:not([href="#"],.carousel-control,.t-carousel__control,[href^="#price"],[href^="#popup"],[href^="#prodpopup"],[href^="#order"],a[href^="#!"]),a[href^="' + curPath + '#"]:not(a[href*="#!/tproduct/"],a[href*="#!/tab/"],[href*="#popup"]),a[href^="' + curFullPath + '#"]:not(a[href*="#!/tproduct/"],a[href*="#!/tab/"],[href*="#popup"])').click(function(e) { e.preventDefault(); var hash = this.hash.trim(); if (hash !== "") { if (window.isMobile) { t270_scroll(hash, 60); } else { t270_scroll(hash, 90); } } }); if ($(".js-store").length > 0 || $(".js-feed").length > 0) { if (hash !== "") { if (window.isMobile) { t270_scroll(hash, 60, 1); } else { t270_scroll(hash, 90, 1); } } } }, 500);
+                setTimeout(function() { var hash = window.location.hash; if (hash && $('a[name="' + hash.slice(1) + '"]').length) { if (window.isMobile) { t270_scroll(hash, 60); } else { t270_scroll(hash, 90); } } }, 1000);
+                $(window).on('popstate', function(event) { var hash = window.location.hash; if (hash && $('a[name="' + hash.slice(1) + '"]').length) { if (window.isMobile) { t270_scroll(hash, 60); } else { t270_scroll(hash, 90); } } });
+            });
+            </script>
+        </div>
+        <div id="rec388998483" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
+            <!-- T123 -->
+            <div class="t123">
+                <div class="t-container_100 ">
+                    <div class="t-width t-width_100 ">
+                        <style>
+                            @keyframes ticker {
+        to {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+
+    @keyframes ticker-to-right {
+        to {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .ticker {
+        white-space: nowrap;
+    }
+
+    .ticker-text {
+        display: inline-block;
+    }
+
+    .ticker-group {
+        will-change: transform;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .ticker-group_animated {
+        animation-name: ticker;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .ticker-wrapper {
+        overflow: hidden !important;
+    }
+
+    @media (hover: hover) {
+        .ticker-wrapper_pausable:hover .ticker-group {
+            animation-play-state: paused;
+        }
+    }
+
+    .ticker-group_animated.ticker-group_to-right {
+        transform: translate3d(-100%, 0, 0);
+        animation-name: ticker-to-right;
+    }
+</style>
+                        <script>
+                        initTicker('#rec388998479', {
+                            direction: 'right',
+                            offset: 100,
+                            speed: 100,
+                            evenItemsCss: {
+                                color: 'white'
+                            },
+                            responsive: {
+                                800: {
+                                    offset: 15,
+                                    speed: 50,
+                                    evenItemsCss: {
+                                        color: 'white'
+                                    }
+                                },
+                                500: {
+                                    evenItemsCss: {
+                                        color: 'white'
+                                    }
+                                }
+                            }
+                        });
+
+                        initTicker('#rec352705194', {
+                            scroll: true,
+                            scrollModifier: 0.5,
+                        });
+
+                        initTicker('#rec352705448', {
+                            pausable: true,
+                            speed: 200
+                        });
+
+                        initTicker('#rec352705775', {
+                            scroll: true
+                        });
+
+                        async function initTicker(id, userOptions = {}) {
+                            const $wrapper = $(id).addClass('ticker-wrapper');
+                            let options = {
+                                direction: 'left',
+                                scroll: false,
+                                scrollModifier: 1,
+                                pausable: false,
+                                speed: 200,
+                                offset: 0,
+                                evenItemsCss: {},
+                                ...userOptions
+                            };
+
+                            if (userOptions.responsive) {
+                                for (let breakpoint of Object.keys(userOptions.responsive).reverse()) {
+                                    if ($(window).innerWidth() > +breakpoint) {
+                                        break;
+                                    }
+
+                                    options = {
+                                        ...options,
+                                        ...userOptions.responsive[breakpoint]
+                                    };
+                                }
+                            }
+
+                            let $item = $wrapper.find('.t-text').addClass('ticker-text');
+
+                            if ($wrapper.find('.t004').length) {
+                                await new Promise((resolve) => setTimeout(resolve, 0));
+                                $item.unwrap().unwrap();
+                            } else {
+                                await waitForGallery()
+                                $item = $wrapper.find('.t552__tile');
+                                $item.width($item.width()).unwrap();
+                                window.dispatchEvent(new CustomEvent('scroll'));
+                                setInterval(() => window.dispatchEvent(new CustomEvent('scroll')), 1000);
+                            }
+
+                            $item.css('margin-right', options.offset + 'px');
+                            if (options.pausable) {
+                                $wrapper.addClass('ticker-wrapper_pausable');
+                            }
+
+                            const $ticker = $item.parent().addClass('ticker');
+                            const $group = $('<div class="ticker-group"></div>').append($item);
+                            $ticker.append($group);
+                            let itemsInGroup = Math.ceil($(window).innerWidth() / $item.outerWidth() / $item.length);
+
+                            if (itemsInGroup === Infinity) {
+                                throw new Error('Too many items in ticker group');
+                            }
+
+                            if (itemsInGroup === 1) {
+                                itemsInGroup++;
+                            }
+                            for (let i = 1; i < itemsInGroup; i++) {
+                                $group.append($item.clone());
+                            }
+
+                            let $groups = $group.add($group.clone())
+                            const duration = Math.floor($group.outerWidth() / options.speed * 1000);
+                            setTimeout(() => {
+                                $groups.css({
+                                    animationDuration: duration + 'ms'
+                                });
+                            }, 0);
+
+                            $groups.find('.ticker-text').each(function(idx) {
+                                if ((idx + 1) % 2 === 0) {
+                                    $(this).css(options.evenItemsCss);
+                                }
+                            });
+
+                            $ticker.append($groups);
+
+                            if (options.direction !== 'left') {
+                                $groups.addClass('ticker-group_to-right');
+                            }
+
+                            if (!options.scroll) {
+                                $groups.addClass('ticker-group_animated');
+                            } else {
+                                const diffSign = options.direction === 'left' ? -1 : 1;
+                                const $newGroup = $group.clone();
+                                $ticker.append($newGroup);
+                                $groups = $groups.add($newGroup);
+
+                                let previousScrollTop = 0;
+                                $(window).on('scroll', () => {
+                                    const diff = $(window).scrollTop() - previousScrollTop;
+                                    previousScrollTop = $(window).scrollTop();
+                                    const match = $group.css('transform').match(/(-?\d+\.?\d*), \d+\)$/);
+                                    const x = ((match ? +match[1] : 0) + diffSign * diff * options.scrollModifier) % $group
+                                        .outerWidth() - $group.outerWidth();
+
+                                    $groups.css('transform', `translate3d(${x}px, 0, 0)`);
+                                });
+                            }
+
+                            function waitForGallery() {
+                                return new Promise((resolve) => {
+                                    const observer = new MutationObserver(() => {
+                                        resolve();
+                                        observer.disconnect();
+                                    });
+
+                                    observer.observe($wrapper[0], {
+                                        childList: true,
+                                        subtree: true,
+                                        attributes: true
+                                    });
+                                });
+                            }
+                        }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/allrecords-->
+    <div class="t-zoomer__wrapper">
+        <div class="t-zoomer__container"></div>
+        <div class="t-zoomer__bg"></div>
+        <div class="t-zoomer__close" style="display:none;"><svg width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41421 -0.000151038L0 1.41406L21.2132 22.6273L22.6274 21.2131L1.41421 -0.000151038Z" fill="black"></path>
+                <path d="M22.6291 1.41421L21.2148 0L0.00164068 21.2132L1.41585 22.6274L22.6291 1.41421Z" fill="black"></path>
+            </svg></div>
+        <div class="t-zoomer__scale showed" style="display:none;"><svg class="icon-increase" width="20" height="20" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.832 22L17.8592 17.0273" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.58591 3.7511C0.917768 7.41924 0.917768 13.367 4.58591 17.0352C8.25405 20.7033 14.2019 20.7033 17.87 17.0352C21.5381 13.367 21.5381 7.41924 17.87 3.7511C14.2019 0.0829653 8.25405 0.0829653 4.58591 3.7511Z" stroke="black" stroke-width="2"></path>
+                <path d="M6.25781 10.3931H16.2035" stroke="black" stroke-width="2"></path>
+                <path d="M11.2305 15.3662V5.42053" stroke="black" stroke-width="2"></path>
+            </svg><svg class="icon-decrease" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.9961 22L17.0233 17.0273" stroke="black" stroke-width="2" stroke-linecap="square"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.74997 3.7511C0.0818308 7.41924 0.0818308 13.367 3.74997 17.0352C7.41811 20.7033 13.3659 20.7033 17.0341 17.0352C20.7022 13.367 20.7022 7.41924 17.0341 3.7511C13.3659 0.0829653 7.41811 0.0829653 3.74997 3.7511Z" stroke="black" stroke-width="2"></path>
+                <path d="M5.41797 10.3931H15.3637" stroke="black" stroke-width="2"></path>
+            </svg></div>
+    </div>
+    <script src="./poks_live/tilda-errors-1.0.min.js" type="text/javascript" async=""></script>
+</body>
+<app-content ng-version="11.1.0"></app-content>
+
+</html>
